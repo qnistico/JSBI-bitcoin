@@ -175,6 +175,8 @@ body {
   right: 12vw;
 }
 
+
+
 .container-2 {
   background-color: #1d1d1d;
   text-align: center !important;
@@ -186,12 +188,12 @@ body {
 
 .picture-1 {
   width: 65%;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0 0 32px black;
 }
 
 .picture-2 {
   width: 65%;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0 0 32px black;
 }
 
 
@@ -583,7 +585,6 @@ h3 {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
 
 	.social-panel-container.visible {
 		transform: translateX(0px);
@@ -592,7 +593,7 @@ h3 {
 	.floating-btn {
 		right: 10px;
 	}
-}
+
 
 .contact-page-1 {
   background-color: #5c5b5b !important;
@@ -951,7 +952,7 @@ background-position-x: 45%;
 
   .content-1 p {
     font-size: 16px;
-    padding-top: 5rem !important;
+    padding-top: 3rem !important;
   }
 
   .content h2 {
@@ -1239,3 +1240,13 @@ background-position-x: 45%;
       max-width: 5000px;
   }
 }
+
+.view img {
+  max-height: 85vh !important;  
+}
+
+.h3-responsive {
+  background-color: black;
+}
+
+

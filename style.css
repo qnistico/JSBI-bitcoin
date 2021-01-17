@@ -202,14 +202,14 @@ body {
 
 .picture-1 {
   width: 65%;
-  -webkit-box-shadow: 5px 5px 10px black;
-          box-shadow: 5px 5px 10px black;
+  -webkit-box-shadow: 0 0 32px black;
+          box-shadow: 0 0 32px black;
 }
 
 .picture-2 {
   width: 65%;
-  -webkit-box-shadow: 5px 5px 10px black;
-          box-shadow: 5px 5px 10px black;
+  -webkit-box-shadow: 0 0 32px black;
+          box-shadow: 0 0 32px black;
 }
 
 .container-1 h2,
@@ -661,14 +661,13 @@ h3 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
-  .social-panel-container.visible {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  .floating-btn {
-    right: 10px;
-  }
+.social-panel-container.visible {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.floating-btn {
+  right: 10px;
 }
 
 .contact-page-1 {
@@ -1029,7 +1028,7 @@ form label {
   }
   .content-1 p {
     font-size: 16px;
-    padding-top: 5rem !important;
+    padding-top: 3rem !important;
   }
   .content h2 {
     font-size: 7.5vw;
@@ -1283,5 +1282,13 @@ form label {
   .container-2 {
     max-width: 5000px;
   }
+}
+
+.view img {
+  max-height: 85vh !important;
+}
+
+.h3-responsive {
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
