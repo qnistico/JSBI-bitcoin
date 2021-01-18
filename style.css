@@ -991,9 +991,6 @@ form label {
     -webkit-animation: none !important;
             animation: none !important;
   }
-  .navbar {
-    height: 59px;
-  }
   form.text-center {
     padding: 20px !important;
   }
