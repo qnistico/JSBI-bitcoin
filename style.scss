@@ -936,6 +936,10 @@ background-position-x: 45%;
       background-attachment: unset;
   }
 
+  .carousel-caption p {
+    display: none;
+  }
+
   .content {
       border-radius: 5px;
       position: relative;
