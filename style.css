@@ -1176,6 +1176,14 @@ form label {
     position: relative;
     left: -5%;
   }
+  .grid-1 {
+    margin-top: 32px;
+  }
+  .contactpage1 {
+    width: 115% !important;
+    position: relative;
+    left: -12.5%;
+  }
   .contact-hero {
     background-attachment: unset;
   }
@@ -1184,7 +1192,7 @@ form label {
     position: relative;
     top: 5vw;
     font-weight: 700;
-    left: 2rem !important;
+    left: 5.5rem !important;
   }
   .text-center {
     padding: 1rem !important;
