@@ -987,6 +987,10 @@ form label {
     margin-left: 75vw;
     margin-top: -25%;
   }
+  .icon-box {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
   .navbar {
     height: 59px;
   }
@@ -1127,6 +1131,8 @@ form label {
   }
   .icon-box {
     margin-bottom: 1rem;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   .contact-page-1 {
     width: 90% !important;

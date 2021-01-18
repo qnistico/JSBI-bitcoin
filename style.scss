@@ -904,6 +904,10 @@ form {
       margin-top: -25%;
   }
 
+  .icon-box {
+    animation: none !important;
+  }
+
   .navbar {
       height: 59px;
   }
@@ -1062,6 +1066,7 @@ background-position-x: 45%;
 
   .icon-box {
       margin-bottom: 1rem;
+      animation: none !important;
   }
 
   .contact-page-1 {
