@@ -1136,7 +1136,6 @@ form label {
   }
   .contact-page-1 {
     width: 90% !important;
-    margin-left: 5%;
   }
   .contact-background {
     width: 115% !important;
@@ -1260,7 +1259,7 @@ form label {
   }
   .content p {
     width: 65%;
-    font-size: 2.25rem;
+    font-size: 1rem;
     margin-left: -18%;
   }
   #mybtn {
