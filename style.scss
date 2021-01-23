@@ -890,6 +890,28 @@ form {
   color: black !important;
 }
 
+.header {
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  transition: height 500ms, background 500ms;
+}
+.logo {
+  width: 140%;
+  transition: all 0.5s ease !important;
+}
+
+.header.tiny {
+  max-height: 61.5px;
+  color: #fff;
+}
+.tiny .logo {
+  width: auto !important;
+  height: 40px !important;
+  transition: all 0.618s ease -0.1s !important;
+}
+
 @media screen and (max-width:290px) {
   .logo-main {
       width: 100%;
@@ -923,6 +945,12 @@ form {
   
 
   
+}
+
+.view {
+  width: 61.8%;
+  
+  margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -1165,9 +1193,12 @@ background-position-x: 45%;
   }
   
   .navbar {
-      background-color: #3b3b3b !important;
+      background-color: #1b1b1b !important;
+      max-height: unset;
   }
 }
+
+
 
 @media screen and (max-width: 1160px) and (min-width: 769px) {
   .main-1 {
