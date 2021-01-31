@@ -163,6 +163,7 @@ body {
   text-decoration: none;
   color: white;
   position: relative;
+  border-radius: 5px;
 }
 
 #mybtn:hover {
@@ -190,6 +191,7 @@ body {
   padding: 3vw;
   position: relative;
   right: 12vw;
+  border-radius: 5px;
 }
 
 .container-2 {
@@ -198,18 +200,21 @@ body {
   padding: 3vw;
   position: relative;
   left: 12vw;
+  border-radius: 5px;
 }
 
 .picture-1 {
   width: 65%;
   -webkit-box-shadow: 0 0 32px rgba(0, 0, 0, 0.521);
           box-shadow: 0 0 32px rgba(0, 0, 0, 0.521);
+  border-radius: 5px;
 }
 
 .picture-2 {
   width: 65%;
   -webkit-box-shadow: 0 0 32px rgba(0, 0, 0, 0.521);
           box-shadow: 0 0 32px rgba(0, 0, 0, 0.521);
+  border-radius: 5px;
 }
 
 .container-1 h2,
@@ -341,6 +346,7 @@ h3 {
   background-color: #3f3f3f;
   padding: 1rem;
   border: 1px solid black;
+  border-radius: 5px;
   position: relative;
   top: 0;
   -webkit-animation-duration: 0.75s;
@@ -1023,6 +1029,25 @@ form label {
   }
 }
 
+.carousel {
+  margin-top: 5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-caption {
+  width: 20%;
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
 .view {
   width: 61.8%;
   margin: auto;
@@ -1169,6 +1194,9 @@ form label {
   .contact-page-1 {
     width: 90% !important;
   }
+  #contact-form {
+    left: 0 !important;
+  }
   .contact-background {
     width: 115% !important;
     margin-left: -7.5%;
@@ -1200,9 +1228,15 @@ form label {
   .blog-1,
   .blog-2,
   .blog-3 {
-    width: 90vw;
-    position: relative;
-    left: -5%;
+    width: 100%;
+  }
+  .blogcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .grid-1 {
     margin-top: 32px;
