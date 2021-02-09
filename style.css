@@ -67,10 +67,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 3rem;
+  min-width: 500px;
 }
 
 .content p {
-  width: 85%;
   padding-top: 3rem;
   font-size: 18px;
   font-weight: 400;
@@ -79,6 +79,7 @@ body {
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
   margin: auto;
+  width: 85%;
 }
 
 .content1-h1 {
@@ -108,18 +109,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-animation-duration: 0.75s;
           animation-duration: 0.75s;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
   padding-top: 1.2rem;
+  width: 85%;
+  margin: 0;
 }
 
 .btn-1 {
