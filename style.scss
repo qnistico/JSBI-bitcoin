@@ -1127,18 +1127,17 @@ background-position-x: 45%;
   }
 
   .contact-page-1 {
-      width: 90% !important;
-      margin-left: 5%;
+      width: 100% !important;
+      margin: auto;
+      padding: 1rem !important;
   }
 
   #contact-form {
     left: 0 !important;
   }
 
-  .contact-background {
-      width: 115% !important;
-      margin-left: -7.5%;
-  }
+  
+  
 
   .btn-block {
       margin-left: 0 !important;
@@ -1183,9 +1182,6 @@ background-position-x: 45%;
 }
 
 .contactpage1 {
-  width: 115% !important;
-  position: relative;
-  left: -12.5%;
 }
 
   .contact-hero {
