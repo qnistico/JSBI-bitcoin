@@ -1074,8 +1074,9 @@ form label {
     font-size: 9vw;
     padding: 0 !important;
   }
-  .content-1 p {
+  .content p {
     font-size: 16px;
+    display: none;
   }
   .content h2 {
     font-size: 7.5vw;
