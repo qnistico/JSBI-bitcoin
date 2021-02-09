@@ -997,6 +997,10 @@ background-position-x: 45%;
     display: none;
   }
 
+  .carousel-caption h3 {
+    display: none;
+  }
+
   .content {
       border-radius: 5px;
       position: relative;
@@ -1295,7 +1299,13 @@ background-position-x: 45%;
   }
 
   
+.carousel-caption h3 {
+  display: none;
+}
 
+.carousel-caption p {
+  display: none;
+}
   
 
   .grid-1 h2,

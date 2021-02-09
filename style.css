@@ -1062,6 +1062,9 @@ form label {
   .carousel-caption p {
     display: none;
   }
+  .carousel-caption h3 {
+    display: none;
+  }
   .content {
     border-radius: 5px;
     position: relative;
@@ -1322,6 +1325,12 @@ form label {
   }
   .contact-hero {
     background-attachment: unset;
+  }
+  .carousel-caption h3 {
+    display: none;
+  }
+  .carousel-caption p {
+    display: none;
   }
   .grid-1 h2,
   .grid-2 h2 {
