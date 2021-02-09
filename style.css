@@ -1084,6 +1084,10 @@ form label {
   i {
     font-size: 15vw !important;
   }
+  .icon-box {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
   .flex-buttons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
