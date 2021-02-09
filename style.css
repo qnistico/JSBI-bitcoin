@@ -46,17 +46,13 @@ body {
   background-color: #1d1d1d !important;
 }
 
-.content-1 {
-  padding: 11vw 0 15vw 0;
-}
-
 .content {
   border-radius: 5px;
   position: relative;
   color: #f1f1f1;
   width: 40%;
-  height: 23vw;
   padding: 0.3vw;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,11 +63,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  left: 4.25%;
-  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3rem;
 }
 
-.content-1 p {
+.content p {
   width: 85%;
   padding-top: 3rem;
   font-size: 18px;
@@ -80,6 +78,7 @@ body {
           animation-duration: 0.75s;
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
+  margin: auto;
 }
 
 .content1-h1 {
@@ -121,7 +120,6 @@ body {
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
   padding-top: 1.2rem;
-  position: relative;
 }
 
 .btn-1 {
@@ -141,7 +139,6 @@ body {
 }
 
 .btn-2 {
-  margin-left: 7.2px;
   color: white !important;
   font-weight: 400;
   background-color: transparent !important;
@@ -162,7 +159,6 @@ body {
   background-color: #444343;
   text-decoration: none;
   color: white;
-  position: relative;
   border-radius: 5px;
 }
 
@@ -344,8 +340,10 @@ h3 {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   background-color: #3f3f3f;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
   border: 1px solid black;
+  -webkit-clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+          clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
   border-radius: 5px;
   position: relative;
   top: 0;
@@ -799,6 +797,10 @@ ul li {
   margin-top: 20px;
 }
 
+.homepagecontact {
+  width: 100% !important;
+}
+
 .blog1-img,
 .blog2-img,
 .blog3-img {
@@ -1069,7 +1071,6 @@ form label {
     position: relative;
     color: #f1f1f1;
     width: 100%;
-    height: 23vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1080,8 +1081,7 @@ form label {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: -15%;
-    left: 0;
+    margin: auto;
   }
   .content h1 {
     font-size: 9vw;
@@ -1089,18 +1089,13 @@ form label {
   }
   .content-1 p {
     font-size: 16px;
-    padding-top: 5rem !important;
   }
   .content h2 {
     font-size: 7.5vw;
-    padding-bottom: 3rem !important;
     font-weight: 600;
   }
   i {
     font-size: 15vw !important;
-  }
-  .content-1 {
-    padding: 48vw 0 75vw 0;
   }
   .flex-buttons {
     -webkit-box-orient: vertical;
@@ -1193,6 +1188,7 @@ form label {
   }
   .contact-page-1 {
     width: 90% !important;
+    margin-left: 5%;
   }
   #contact-form {
     left: 0 !important;
@@ -1270,6 +1266,9 @@ form label {
     position: relative;
     left: 7.5vw;
   }
+  .content2 h2 {
+    margin-bottom: 2rem;
+  }
   .cryptocurrencies {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1281,6 +1280,12 @@ form label {
   }
   .cryptocurrencies i {
     font-size: 25vw !important;
+  }
+  .cryptocurrencies a {
+    margin-bottom: 2rem;
+  }
+  .view {
+    width: 100%;
   }
   .navbar {
     background-color: #1b1b1b !important;
@@ -1295,49 +1300,38 @@ form label {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     padding-bottom: 50px;
     background-attachment: unset;
   }
   .content {
-    position: relative;
-    margin-top: -25%;
-    width: 95%;
+    width: 90%;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .content h1 {
     font-size: 5rem;
+    width: 100%;
   }
   .content h2 {
     font-size: 3rem;
+    width: 100%;
   }
   .content p {
-    width: 65%;
-    font-size: 1rem;
-    margin-left: -18%;
+    width: 100%;
+    font-size: 2rem;
+  }
+  .content .flex-buttons {
+    width: 100%;
   }
   #mybtn {
     font-size: 2.618rem;
     min-width: 18rem;
-    position: relative;
-    left: -18.25%;
-  }
-  .btn-2 {
-    position: relative;
-    left: -5.5rem !important;
+    width: 100%;
   }
   .blog-hero {
     background-attachment: unset;
@@ -1355,13 +1349,17 @@ form label {
   }
 }
 
-@media screen and (max-width: 4000px) {
+@media screen and (max-width: 4000px) and (min-width: 1950px) {
   .picture-2 {
     max-height: 5000px;
   }
   .container-2 {
     max-width: 5000px;
   }
+}
+
+.icon-box {
+  padding-bottom: 5vw;
 }
 
 .view img {
