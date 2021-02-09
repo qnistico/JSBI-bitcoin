@@ -1067,16 +1067,7 @@ form label {
     position: relative;
     color: #f1f1f1;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    min-width: unset;
     margin: auto;
   }
   .content h1 {

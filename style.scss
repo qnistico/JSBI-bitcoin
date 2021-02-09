@@ -1002,9 +1002,7 @@ background-position-x: 45%;
       position: relative;
       color: #f1f1f1;
       width: 100%;
-      display: flex;
-      flex-flow: column nowrap;
-      align-items: center;
+      min-width: unset;
       margin: auto;
   }
 
